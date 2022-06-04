@@ -5,13 +5,31 @@
   color: rgb(59, 59, 59);
   transition: color 1s;
 }
-.navbar-nav .nav-link:hover {
+.navbar-light .nav-link:hover {
   color: red;
 }
 .carousel-item {
-  height: calc(100vh - 88px);
+  max-height: calc(100vh - 88px);
 }
 .carousel-item h1 {
   color: red;
   text-shadow: 2px 2px 2px black;
+}
+.carousel-item p {
+  color: white;
+  font-weight: 500;
+}
+.carousel-item .buttons .btn {
+  width: 7rem;
+  margin-top: 1rem;
+}
+
+.carousel-indicators button {
+  background-color: red !important;
+  height: 0.4rem !important;
+  width: 3rem !important;
+  margin-right: 0.7rem !important;
+}
+.carousel-caption {
+  margin-bottom: 3rem;
 }
