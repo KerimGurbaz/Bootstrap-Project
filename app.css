@@ -59,3 +59,13 @@ section#contact i {
   color: red;
   font-size: 2rem;
 }
+
+footer i {
+  font-size: 2rem;
+  color: white;
+  margin-right: 1rem;
+  transition: color 1s;
+}
+footer i:hover {
+  color: red;
+}
